@@ -228,7 +228,7 @@ class Car {
     }
 }
 ```
-The `Car` depends directly on the `Engine` class, which is a low-level module or class. There's no interface or abstract class to separate the `Car` dependency from the `Engine` class. To make the code follow DIP, we can introduce an interface.
+The `Car` depends directly on the `Engine` class, which is a low-level class. There is no interface or abstract class to separate the `Car` dependency from the `Engine` class. To make the code follow DIP, we need to introduce an interface.
 
 ```java
 interface Engine {
@@ -262,11 +262,11 @@ class Car {
 
 ## Conclusion
 
-This paper gave an introduction to the SOLID principles. By following each principle, we were able to write clean and efficient code.
+This paper gave us an introduction to the SOLID principles. By following each principle, we were able to write clean and efficient code.
 
 
 ## Reference 
-* Anupadhyay, ["SOLID Principles in Programming: Understand With Real Life Examples."](https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/).
+* Anupadhyay, ["SOLID Principles in Programming: Understand With Real Life Examples"](https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/).
 * Sam Millington, ["A Solid Guide to SOLID Principles."](https://www.baeldung.com/solid-principles)
 * Samuel Oloruntoba, Anish Singh Walia, ["SOLID: The First 5 Principles of Object Oriented Design."](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
 * Kudvenkat, ["Solid Design Principles."](https://youtube.com/playlist?list=PL6n9fhu94yhXjG1w2blMXUzyDrZ_eyOme&si=TRQ_yypHtGOIJrFS)
