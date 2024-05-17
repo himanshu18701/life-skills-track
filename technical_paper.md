@@ -1,6 +1,6 @@
 # SOLID Principles
 
-The SOLID principles were introduced by Robert C. Martin, These principles provide a set of guidelines that helps a developer to write clean and efficient code. The SOLID stands for five principles:
+The SOLID principles were introduced by Robert C. Martin, These principles provide sets of guidelines that help developers to write clean and efficient code. The SOLID stands for five principles:
 
 1. Single Responsibility Principle
 2. Open/Closed Principle
@@ -8,7 +8,7 @@ The SOLID principles were introduced by Robert C. Martin, These principles provi
 4. Interface Segregation Principle
 5. Dependency Inversion Principle
 
-We will try to understand the SOLID principles using `Car` class example.
+We will try to understand the SOLID principles using the `Car` class example.
 
 ## 1. Single Responsibility
 
@@ -21,7 +21,7 @@ class Car {
     private int fuelPercent;
 
     public Car(String name, String company,int fuelPercent) {
-        // Construtor method
+        // Constructor method
     }
 
     public void refuel(int amount) {
@@ -29,7 +29,7 @@ class Car {
     }
 }
 ```
-In this code, we store the `name`, `company` and `fuelPercent` and added some method `refuel`. However, this code violates the single responsibility principle. To fix this issue, we should implement a separate class that deals with fuel service.
+In this code, we store the `name`, `company`, and `fuelPercent` and a method `refuel`. However, this code doesn't follow the single responsibility principle. To fix this issue, we should implement a separate class that deals with fuel service.
 
 ```java
 class Car {
@@ -41,7 +41,7 @@ class Car {
         this.manufacturer = manufacturer;
     }
 
-    // Getters,Setters and other car-related methods
+    // Getters, Setters, and other car-related methods
 }
 
 class FuelService {
@@ -64,7 +64,7 @@ class FuelService {
 
 ## 2. Open/Closed Principle
 
-Classes should be open to extension but closed for modification. By doing this, we are stopping the modification of existing code and causing new bugs.
+Classes should be open to extension but closed for modification. By doing this, we stop modifying existing code and causing new bugs.
 
 ```java
 class Car {
@@ -80,7 +80,7 @@ class ElectricCar extends Car {
 }
 ```
 
-This above code does not fully follow the Open/Closed Principle. In this code, both `Car` and `ElectricCar` classes are modifying the `drive` method. So to make this code follow OCP principle we add interface on both `Car` and `Electric Car`.
+This above code does not fully follow the Open/Closed Principle. In this code, both the `Car` and `ElectricCar` classes modify the `drive` method. So to make this code follow the OCP principle we add an interface on both `Car` and `Electric Car`.
 
 ```java
 interface Drivable {
@@ -146,7 +146,7 @@ class ElectricCar extends Vehicle {
 
 ## 4. Interface Segregation Principle
 
-The Interface Segregation Principle says that big interfaces should be divided into smaller ones. This way, classes that use these interfaces only need to worry about the specific methods they actually need, making things simpler and more focused.
+The Interface Segregation Principle says that big interfaces should be divided into smaller ones. This way, classes that use these interfaces only need to worry about the specific methods they need, making things simpler and more focused.
 
 ```java
 interface Vehicle {
