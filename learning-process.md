@@ -18,9 +18,9 @@ Active mode is a focused, analytical way of thinking for detailed problem-solvin
 
 ## Steps to take when approaching a new topic.
 
-* Deconstuct the skill - Decide what you want to be able to do when you are done and based on that break it down in smaller piecies.
+* Deconstruct the skill - Decide what you want to be able to do when you are done and based on that break it down into smaller pieces.
 
-* Learn enough to self-correct - Learn just enough so that you can actually self-correct.
+* Learn enough to self-correct - Learn just enough so that you can self-correct.
 
 * Remove practice barriers
 
