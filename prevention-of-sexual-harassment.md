@@ -1,7 +1,7 @@
 # Prevention of Sexual Harassment
 
 
-## What kinds of behaviour cause sexual harassment?
+## What kinds of behavior cause sexual harassment?
 
 ### Verbal
 * Comments about clothing or a person's body.
@@ -21,7 +21,7 @@
 * Sexual gesturing, leering, or staring.
 
 
-## What would you do in case you face or witness any incident or repeated incidents of such behaviour?
+## What would you do in case you face or witness any incident or repeated incidents of such behavior?
 * Speak up and tell the person to stop the behavior.
 * Document the incidents.
 * Report the incidents to the appropriate authorities or HR department.
